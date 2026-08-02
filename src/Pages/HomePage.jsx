@@ -11,7 +11,6 @@ import {
   CameraIcon,
   HeadphoneIcon,
   GamingIcon,
-  BoxIcon,
   ShirtIcon,
   BagIcon,
   ShelfIcon,
@@ -38,6 +37,7 @@ import womanImg from "../assets/Home Image/attractive-woman-wearing-hat-posing-b
 import iphoneImg from "../assets/Home Image/hero_endframe__cvklg0xk3w6e_large 2.png";
 import jblSpeakerImg from "../assets/Home Image/JBL_BOOMBOX_2_HERO_020_x1 (1) 1.png";
 import ps5Img from "../assets/Home Image/ps5-slim-goedkope-playstation_large 1.png";
+import curologyImg from "../assets/Home Image/curology-unsplash 1.png";
 
 const sidebarCategories = [
   { label: "Woman's Fashion", hasArrow: true },
@@ -78,11 +78,11 @@ const exploreProducts = [
   { name: "Breed Dry Dog Food", price: 100, rating: 3, reviews: 35, image: dogFoodImg },
   { name: "CANON EOS DSLR Camera", price: 360, rating: 4, reviews: 95, image: cameraImg },
   { name: "ASUS FHD Gaming Laptop", price: 700, rating: 5, reviews: 325, image: laptopImg },
-  { name: "Curology Product Set", price: 500, rating: 4, reviews: 145, icon: BoxIcon },
+  { name: "Curology Product Set", price: 500, rating: 4, reviews: 145, image: curologyImg },
   { name: "Breed Dry Dog Food", price: 100, rating: 3, reviews: 35, image: dogFoodImg },
   { name: "CANON EOS DSLR Camera", price: 360, rating: 4, reviews: 95, image: cameraImg },
   { name: "ASUS FHD Gaming Laptop", price: 700, rating: 5, reviews: 325, image: laptopImg },
-  { name: "Curology Product Set", price: 500, rating: 4, reviews: 145, icon: BoxIcon },
+  { name: "Curology Product Set", price: 500, rating: 4, reviews: 145, image: curologyImg },
 ];
 
 const ArrowNav = () => (

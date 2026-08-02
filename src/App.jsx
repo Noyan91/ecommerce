@@ -4,6 +4,9 @@ import Root from "./Components/Root";
 import HomePage from "./Pages/HomePage";
 import LoginPage from "./Pages/LoginPage";
 import SignupPage from "./Pages/SingupPage";
+import NotFoundPage from "./Pages/NotFoundPage";
+import ContactPage from "./Pages/ContactPage";
+import AboutPage from "./Pages/AboutPage";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +24,18 @@ const router = createBrowserRouter([
       {
         path: "/signup",
         element: <SignupPage />,
+      },
+      {
+        path: "/contact",
+        element: <ContactPage />,
+      },
+      {
+        path: "/about",
+        element: <AboutPage />,
+      },
+      {
+        path: "*",
+        element: <NotFoundPage />,
       },
     ]
   },
